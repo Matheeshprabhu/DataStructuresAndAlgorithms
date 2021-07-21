@@ -26,7 +26,7 @@ public class SelectionSort {
     public static void main(String[] args){
 
 
-        int[] array = SelectionSort.selectionSort(new int[] {34,11,22,10,7,8,1});
+        int[] array = SelectionSort.selectionSort(new int[] {3,10,20,40,45,55,1,2,8,44,51,54});
 
         for(int item : array){
             System.out.print(item + " ");
